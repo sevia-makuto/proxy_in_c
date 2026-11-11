@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+access-control-allow-credentials: true
+access-control-allow-origin: *
+access-control-expose-headers: Retry-After, RateLimit, RateLimit-Policy
+cache-control: public, max-age=60
+content-length: 151
+content-type: application/json
+x-content-type-options: nosniff
+date: Tue, 10 Nov 2026 04:41:57 GMT
+connection: close
+
+{
+  "args": {},
+  "headers": {
+    "Host": "httpbin.org"
+  },
+  "method": "GET",
+  "origin": "197.248.74.74",
+  "url": "http://httpbin.org/cache/60"
+}
